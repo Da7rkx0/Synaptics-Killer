@@ -2,7 +2,7 @@
 
 ![Synaptics Killer Banner](https://placehold.co/800x200/000000/FFFFFF/png?text=Synaptics+Killer+Pro%0ANext-Gen+Enterprise+Defense+System&font=roboto)
 
-[![Video Demo](https://placehold.co/600x400/1a1a1a/FFFFFF/png?text=Video+Demo%0AClick+to+Watch&font=roboto)](https://example.com/demo-video)
+[![Video Demo](https://github.com/user-attachments/assets/eee59b97-3e0b-4f7b-8ad5-1477e8799a89)]
 
 An enterprise-grade solution for detecting and eradicating Synaptics malware with advanced resurrection prevention mechanisms
 
