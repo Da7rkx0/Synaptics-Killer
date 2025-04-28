@@ -1,6 +1,6 @@
 # Synaptics Killer Pro - Advanced Malware Defense System
 
-![Synaptics Killer Banner](https://via.placeholder.com/800x200.png?text=Synaptics+Killer+Pro+-+Next-Gen+Enterprise+Defense+System)
+![Synaptics Killer Banner](https://placehold.co/800x200/000000/FFFFFF/png?text=Synaptics+Killer+Pro%0ANext-Gen+Enterprise+Defense+System&font=roboto)
 
 An enterprise-grade solution for detecting and eradicating Synaptics malware with advanced resurrection prevention mechanisms
 
