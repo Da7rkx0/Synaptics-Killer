@@ -2,6 +2,8 @@
 
 ![Synaptics Killer Banner](https://placehold.co/800x200/000000/FFFFFF/png?text=Synaptics+Killer+Pro%0ANext-Gen+Enterprise+Defense+System&font=roboto)
 
+[![Video Demo](https://placehold.co/600x400/1a1a1a/FFFFFF/png?text=Video+Demo%0AClick+to+Watch&font=roboto)](https://example.com/demo-video)
+
 An enterprise-grade solution for detecting and eradicating Synaptics malware with advanced resurrection prevention mechanisms
 
 ## Key Features
@@ -46,7 +48,16 @@ pip install -r requirements.txt
 
 ## Usage
 ```bash
+# Run directly from source
 python SynapticsKiller.py
+
+# Compile to EXE (requires pyinstaller)
+pip install pyinstaller
+pyinstaller --onefile  SynapticsKiller.py
+
+# The compiled EXE will be in dist/ folder
+# Note: Run compiled EXE as Administrator
+dist\SynapticsKiller.exe
 ```
 
 ## Technical Specifications
