@@ -1,10 +1,10 @@
 # Synaptics Killer Pro - Advanced Malware Defense System
 
 ![Synaptics Killer Banner](https://placehold.co/800x200/000000/FFFFFF/png?text=Synaptics+Killer+Pro%0ANext-Gen+Enterprise+Defense+System&font=roboto)
+An enterprise-grade solution for detecting and eradicating Synaptics malware with advanced resurrection prevention mechanisms
 
 #  Video
-[video](https://github.com/user-attachments/assets/eee59b97-3e0b-4f7b-8ad5-1477e8799a89)
-An enterprise-grade solution for detecting and eradicating Synaptics malware with advanced resurrection prevention mechanisms
+![video](https://github.com/user-attachments/assets/eee59b97-3e0b-4f7b-8ad5-1477e8799a89)
 
 ## Key Features
 - ✅ Real-time process monitoring  
