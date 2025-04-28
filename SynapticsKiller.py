@@ -478,7 +478,7 @@ if __name__ == "__main__":
     """ + Style.RESET_ALL)
     
     print(Fore.YELLOW + f"""
-    {Fore.GREEN}➤ Version:    {Fore.WHITE}v1.0{Fore.CYAN}  ║  {Fore.GREEN}Developer: {Fore.MAGENTA}Da7rkx0
+    {Fore.GREEN}➤ Version:    {Fore.WHITE}v6.0{Fore.CYAN}  ║  {Fore.GREEN}Developer: {Fore.MAGENTA}Da7rkx0
     {Fore.GREEN}➤ Protection: {Fore.RED}ACTIVE{Fore.CYAN}  ║  {Fore.GREEN}GitHub:    {Fore.BLUE}github.com/Da7rkx0
     {Fore.BLUE}═══════════════════════════════════════════════════
     """ + Style.RESET_ALL)
