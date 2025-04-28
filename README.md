@@ -1,157 +1,61 @@
-# 🔥 Synaptics Killer - Ultimate Malware Eradication Tool 🔥  
-![Version](https://img.shields.io/badge/version-6.0-blue)  
-![Python](https://img.shields.io/badge/python-3.8%2B-green)  
-![License](https://img.shields.io/badge/license-MIT-orange)  
-![Build](https://img.shields.io/badge/build-passing-brightgreen)  
+# Synaptics Killer Pro - Advanced Malware Defense System
 
-🛡️ **Enterprise-grade Solution for Synaptics Malware Removal**  
-![Malware Protection](https://img.shields.io/badge/MALWARE_PROTECTION-ACTIVE-red)  
-![System Cleanup](https://img.shields.io/badge/SYSTEM_CLEANUP-AGGRESSIVE-blue)  
-![Registry Guard](https://img.shields.io/badge/REGISTRY_GUARD-ENABLED-success)  
+![Synaptics Killer Banner](https://via.placeholder.com/800x200.png?text=Synaptics+Killer+Pro+-+Next-Gen+Enterprise+Defense+System)
 
-## 🌟 Features  
-- 🚨 Real-time Process Monitoring & Termination  
-- 🧹 Deep Registry Cleaning & Sterilization  
-- 💥 Nuclear File Deletion Protocol  
-- 🛡️ Advanced Persistence Mechanisms Detection  
-- 📊 Smart Heuristic Analysis Engine  
-- 🔄 Auto-Elevation for Admin Privileges  
-- 📈 Performance Optimization Mode  
+An enterprise-grade solution for detecting and eradicating Synaptics malware with advanced resurrection prevention mechanisms
 
-## 🚀 Installation  
-```bash  
-# Install from PyPI  
-pip install synaptics-killer  
+## Key Features
+- ✅ Real-time process monitoring  
+- ☢️ Comprehensive file eradication  
+- 🔒 Registry protection  
+- 📊 Scheduled tasks analysis  
+- 🛡️ Advanced file deletion techniques  
+- 📈 Detailed logging system
 
-# Or clone and install locally  
-git clone https://github.com/Da7rkx0/Synaptics-Killer.git  
-cd Synaptics-Killer  
-pip install -r requirements.txt  
+## How It Works
+```mermaid
+graph TD
+    A[Start] --> B{Admin Rights?}
+    B -- Yes --> C[Activate Monitoring]
+    B -- No --> D[Request UAC Elevation]
+    D --> C
+    C --> E[Scan Running Processes]
+    E --> F{Found Synaptics.exe?}
+    F -- Yes --> G[Terminate Process]
+    F -- No --> H[Periodic Scanning]
+    G --> I[Delete Associated Files]
+    I --> J[Clean Registry Entries]
+    J --> K[Check Scheduled Tasks]
+    K --> L{Found Suspicious Tasks?}
+    L -- Yes --> M[Delete Tasks Immediately]
+    L -- No --> H
+    H --> E
+```
 
-# Build Windows Executable  
-pyinstaller --onefile --icon=assets/shield.ico --name "SynapticsKiller" --add-data 'assets;assets' SynapticsKiller.py  
-```  
+## Installation
+```bash
+# Install required libraries
+pip install -r requirements.txt
+```
 
-### 🔨 Build Options:  
-- `--onefile`: Create single executable  
-- `--icon`: Custom shield icon  
-- `--add-data`: Include security assets  
-- `--upx-dir`: Add UPX compression (recommended)  
+## Required Libraries
+- `psutil` - Process monitoring  
+- `colorama` - Console coloring  
+- `winreg` - Windows registry access  
+- `ctypes` - System-level operations
 
-⚠️ **Requires:**  
-- Windows 10/11 (64-bit)  
-- Python 3.8+  
-- Administrator privileges  
+## Usage
+```bash
+python SynapticsKiller.py
+```
 
-## 🖥️ Usage  
-```python  
-from synaptics_killer import SynapticsEradicator  
+## Technical Specifications
+- Multi-phase deletion protocols
+- File ownership takeover
+- PowerShell-enhanced removal
+- Registry sterilization
+- Real-time process watcher
+- Automatic UAC elevation
 
-# Initialize with maximum protection  
-killer = SynapticsEradicator(  
-    mode="aggressive",  
-    auto_clean=True,  
-    realtime_protection=True  
-)  
-
-# Start eternal monitoring  
-killer.eternal_hunter()  
-```  
-
-**CLI Command:**  
-```bash  
-python SynapticsKiller.py   
-```  
-
-![Demo](https://via.placeholder.com/800x400.png?text=Terminal+Demo+Animation) *Demo Preview*  
-
-## 🔄 Workflow Diagram  
-```mermaid  
-stateDiagram-v2  
-    [*] --> AdminCheck  
-    AdminCheck -->|Elevated| CoreProtection: Granted  
-    AdminCheck -->|Not Elevated| UACPrompt: Request  
-    UACPrompt --> AdminCheck: Retry  
-    
-    CoreProtection: Terminate Processes  
-    CoreProtection --> FileEradication  
-    CoreProtection --> RegistryClean  
-    
-    FileEradication: Nuclear Deletion Protocol  
-    RegistryClean: Deep Sterilization  
-    
-    FileEradication --> TaskMonitor  
-    RegistryClean --> TaskMonitor  
-    
-    TaskMonitor: Destroy Persistence  
-    TaskMonitor --> RealTimeGuard  
-    
-    RealTimeGuard: 24/7 Monitoring  
-    RealTimeGuard --> ThreatResponse  
-    
-    ThreatResponse: Automatic Neutralization  
-    ThreatResponse --> RealTimeGuard  
-```  
-
-## 🧠 Technical Deep Dive  
-### 🔧 Tech Stack  
-- **Core Engine**: Python 3.8+  
-- **System Integration**: Windows API Bindings  
-- **Process Management**: psutil + WMI  
-- **Security**: AES-256 File Shredding  
-- **Monitoring**: Multi-threaded Sentinel  
-
-### 🏗️ System Architecture  
-```mermaid  
-graph TD  
-    A[User Interface] --> B[Core Engine]  
-    B --> C[Process Monitor]  
-    B --> D[File Eradicator]  
-    B --> E[Registry Cleaner]  
-    B --> F[Task Manager]  
-    C --> G[Real-time Alerts]  
-    D --> H[Secure Deletion]  
-    E --> I[Key Scrubber]  
-    F --> J[Persistence Remover]  
-```  
-
-### 🛠️ Core Mechanisms  
-1. **Multi-stage Deletion Protocol**  
-   - Process Hollowing Detection  
-   - File Signature Spoofing Prevention  
-   - Secure Overwrite (DoD 5220.22-M)  
-
-2. **Heuristic Analysis**  
-   ```python  
-   def analyze_threat(file_path):  
-       risk_score = 0  
-       if detect_packing(file_path):  
-           risk_score += 40  
-       if detect_antidebug(file_path):  
-           risk_score += 30  
-       if detect_code_injection(file_path):  
-           risk_score += 30  
-       return risk_score >= 75  
-   ```  
-
-## 📦 Prerequisites  
-- Python 3.8+  
-- Windows 10/11 x64  
-- Administrator Rights  
-- 500MB+ Free Disk Space  
-
-## 🤝 Contributing  
-1. Fork Repository  
-2. Create Feature Branch  
-3. Submit Pull Request  
-```bash  
-git checkout -b feature/amazing-feature  
-```  
-
-## 📜 License  
-MIT License - See [LICENSE](LICENSE) for details  
-
-## 👥 Acknowledgments  
-- Microsoft Security Research Team  
-- NSA Cybersecurity Directorate  
-- GitHub Security Lab
+## License
+MIT License - [Da7rkx0](https://github.com/Da7rkx0)
