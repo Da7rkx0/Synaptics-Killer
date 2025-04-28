@@ -1,0 +1,19 @@
+# Core Dependencies
+colorama==0.4.6
+psutil==5.9.5
+pywin32==306
+pyinstaller==5.13.2
+requests==2.31.0
+tqdm==4.66.1
+
+# Security Enhancements
+cryptography==41.0.4
+pycryptodome==3.19.1
+
+# Windows Integration
+wmi==1.5.1
+pywinctl==0.0.58
+
+# Build Tools
+setuptools==68.2.2
+wheel==0.41.3

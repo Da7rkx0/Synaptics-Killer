@@ -1,0 +1,22 @@
+# Build artifacts
+dist/
+build/
+*.spec
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Logs
+*.log
+
+# Environment
+.env
+venv/
+
+# Editor
+.vscode/
+.idea/
+
+# Executables
+*.exe
